@@ -102,9 +102,5 @@ python app.py
   
 
 3. Отправьте изменения на GitHub: git push origin main
-4. 
-
-   `bash
-   git push origin main
-   ``
+   
 
