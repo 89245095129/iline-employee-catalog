@@ -18,7 +18,7 @@ Employee database catalog for ILINE GROUP
 
 Клонируйте этот репозиторий на вашу локальную машину:
 
-`bash
+
 git clone https://github.com/ваш_логин/employee-management-system.git
 cd employee-management-system
 
@@ -26,22 +26,22 @@ cd employee-management-system
 ### Шаг 2: Установка зависимостей
 
 Создайте виртуальное окружение:
-bash
+
 python -m venv venv
 
 Активируйте виртуальное окружение:
 
 - Windows:
-  `bash
+  
   venv\Scripts\activate
-  `
+  
 - macOS/Linux:
-  `bash
+  
   source venv/bin/activate
-  `
+  
 
 Установите необходимые библиотеки:
-bash
+
 pip install Flask Flask-SQLAlchemy psycopg2-binary
 
 ### Шаг 3: Настройка PostgreSQL
@@ -49,9 +49,9 @@ pip install Flask Flask-SQLAlchemy psycopg2-binary
 1. Установите PostgreSQL, если он еще не установлен. Убедитесь, что служба PostgreSQL запущена.
 2. Войдите в PostgreSQL:
 
-   `bash
+   
    psql -U postgres
-   `
+   
 
 3. Создайте базу данных employee_db:
 
@@ -77,7 +77,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:ваш_парол
 ### Шаг 5: Запуск приложения
 
 Запустите приложение:
-bash
+
 python app.py
 
 Перейдите в браузере по адресу http://127.0.0.1:5000 для доступа к приложению.
@@ -91,17 +91,18 @@ python app.py
 
 1. Добавьте все изменения в репозиторий:
 
-   `bash
+   
    git add .
-   `
+   
 
 2. Закоммитьте изменения:
 
-   `bash
+   
    git commit -m "Initial commit of the Employee Management System"
-   `
+  
 
-3. Отправьте изменения на GitHub:
+3. Отправьте изменения на GitHub: git push origin main
+4. 
 
    `bash
    git push origin main
